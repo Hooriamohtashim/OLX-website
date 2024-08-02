@@ -1,10 +1,10 @@
 body {
-    padding-top: 300px
+    padding-top: 200px
 }
 
 header {
     background-color: white;
-    height: 300px
+    height: 200px
 }
 
 .head2 {
@@ -72,7 +72,13 @@ footer {
 }
 
 @media (max-width:600px) {
+    .body {
+        padding-top: 300px !important;
+    }
 
+    header {
+        height: 300px;
+    }
 
     .head1 img {
         width: 40px !important;
@@ -135,10 +141,10 @@ footer {
         margin-left: 3px !important;
     }
 
-.container1{
-    display: flex !important;
-    justify-content: center !important;
-}
+    .container1 {
+        display: flex !important;
+        justify-content: center !important;
+    }
 
     .circleimg {
         margin: 2px !important;
@@ -154,13 +160,13 @@ footer {
 
     footer {
         height: 730px !important;
-        width:500px !important;
+        width: 100% !important;
         display: flex;
         justify-content: center;
 
     }
 
     .footer-lastpart {
-        width: 500px
+        width: 100% !important;
     }
 }
