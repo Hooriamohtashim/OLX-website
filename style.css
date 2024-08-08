@@ -59,7 +59,7 @@ header {
 
 footer {
     background-color: silver;
-    width: 100%;
+    width: 100% !important;
     height: 200px;
     border: 1px solid black;
 
@@ -67,7 +67,7 @@ footer {
 
 .footer-lastpart {
     background-color: teal;
-    width: 100%;
+    width: 100% !important;
     height: 140;
 }
 
